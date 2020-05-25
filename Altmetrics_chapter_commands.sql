@@ -17,4 +17,4 @@ select seq.nextval, chapter.ARTICLE_ID, chapter.content:altmetric_id, chapter.co
 to_char(current_timestamp, 'YYYY-MM-DD HH:MM:SS'), to_char(current_timestamp, 'YYYYMMDD') from
 (select * from ("DEV2_LZ"."ALTMETRICS"."T_S_FETCH" as a inner join "DEV2_LZ"."ALTMETRICS"."ALT_DIM_ARTICLES" as b on a.content:altmetric_id = b.ALTMETRIC_ID) where content:citation:type = 'chapter') chapter,
 table(getnextval(alt_chap_seq)) seq
-where not exists (select * from "DEV2_LZ"."ALTMETRICS"."ALT_DIM_ARTICLES_CHAPTERS" where chapter.content:altmetric_id = CHAPTER_ALTMETRIC_ID);
+where not exists (select CHAPTER_ALTMETRIC_ID from "DEV2_LZ"."ALTMETRICS"."ALT_DIM_ARTICLES_CHAPTERS" where chapter.content:altmetric_id = CHAPTER_ALTMETRIC_ID);

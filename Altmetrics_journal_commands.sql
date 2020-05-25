@@ -15,4 +15,4 @@ insert into "DEV2_LZ"."ALTMETRICS"."ALT_DIM_JOURNALS"(JOURNAL_ID, JOURNAL_NAME, 
 to_char(current_timestamp, 'YYYY-MM-DD HH:MM:SS'), to_char(current_timestamp, 'YYYYMMDD')
 from "DEV2_LZ"."ALTMETRICS"."T_S_FETCH", table(getnextval(alt_journal_seq)) seq
 where (content:citation:type = 'journal' or content:citation:journal is not null) and
-not exists (select * from "DEV2_LZ"."ALTMETRICS"."ALT_DIM_JOURNALS" where content:altmetric_id=ALTMETRIC_JOURNAL_ID));
+not exists (select ALTMETRIC_JOURNAL_ID from "DEV2_LZ"."ALTMETRICS"."ALT_DIM_JOURNALS" where content:altmetric_id=ALTMETRIC_JOURNAL_ID));

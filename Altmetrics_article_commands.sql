@@ -17,4 +17,4 @@ insert into "DEV2_LZ"."ALTMETRICS"."ALT_DIM_ARTICLES"(ARTICLE_ID, ARTICLE_DOI, A
 (select seq.nextval, content:citation:doi, content:citation:title,
 content:altmetric_id, to_char(current_timestamp, 'YYYY-MM-DD HH:MM:SS'), to_char(current_timestamp, 'YYYYMMDD'),
 to_char(to_date(content:citation:first_seen_on), 'YYYY-MM-DD HH:MM:SS') from "DEV2_LZ"."ALTMETRICS"."T_S_FETCH", table(getnextval(alt_seq)) seq
-where not exists (select * from "DEV2_LZ"."ALTMETRICS"."ALT_DIM_ARTICLES" where content:altmetric_id=ALTMETRIC_ID));
+where not exists (select ALTMETRIC_ID from "DEV2_LZ"."ALTMETRICS"."ALT_DIM_ARTICLES" where content:altmetric_id=ALTMETRIC_ID));
