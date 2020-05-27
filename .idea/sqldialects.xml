@@ -12,7 +12,10 @@
     <file url="file://$PROJECT_DIR$/Altmetrics_journal_commands.sql" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/Altmetrics_journal_issns_commands.sql" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/Altmetrics_post_author_commands.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Altmetrics_post_counts_commands.sql" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/Altmetrics_posts_commands.sql" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/Altmetrics_publisher_commands.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Altmetrics_score_commands.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Altmetrics_twitter_data_commands.sql" dialect="GenericSQL" />
   </component>
 </project>
