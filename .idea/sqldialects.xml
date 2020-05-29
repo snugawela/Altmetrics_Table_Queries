@@ -1,21 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="SqlDialectMappings">
-    <file url="file://$PROJECT_DIR$/Altmetrics_article_commands.sql" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/Altmetrics_article_editors_commands.sql" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/Altmetrics_article_isbns.sql" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/Altmetrics_article_journal_commands.sql" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/Altmetrics_article_publishers_command.sql" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/Altmetrics_chapter_commands.sql" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/Altmetrics_editors_commands.sql" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/Altmetrics_geographics_commands.sql" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/Altmetrics_journal_commands.sql" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/Altmetrics_journal_issns_commands.sql" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/Altmetrics_post_author_commands.sql" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/Altmetrics_post_counts_commands.sql" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/Altmetrics_posts_commands.sql" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/Altmetrics_publisher_commands.sql" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/Altmetrics_score_commands.sql" dialect="GenericSQL" />
-    <file url="file://$PROJECT_DIR$/Altmetrics_twitter_data_commands.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/parametrized_sql/STG_ALTMETRICS_ARTICLES.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/parametrized_sql/STG_ALTMETRICS_ARTICLE_EDITORS.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/parametrized_sql/STG_ALTMETRICS_JOURNALS.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/run_sql_input/Altmetrics_article_editors_insert.sql" dialect="Snowflake" />
+    <file url="file://$PROJECT_DIR$/run_sql_input/Altmetrics_article_insert.sql" dialect="Snowflake" />
+    <file url="file://$PROJECT_DIR$/run_sql_input/Altmetrics_article_isbns_insert.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/unparametrized_sql/Altmetrics_article_commands.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/unparametrized_sql/Altmetrics_article_editors_commands.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/unparametrized_sql/Altmetrics_article_isbns.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/unparametrized_sql/Altmetrics_article_journal_commands.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/unparametrized_sql/Altmetrics_article_publishers_command.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/unparametrized_sql/Altmetrics_chapter_commands.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/unparametrized_sql/Altmetrics_editors_commands.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/unparametrized_sql/Altmetrics_geographics_commands.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/unparametrized_sql/Altmetrics_journal_commands.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/unparametrized_sql/Altmetrics_journal_issns_commands.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/unparametrized_sql/Altmetrics_post_author_commands.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/unparametrized_sql/Altmetrics_post_counts_commands.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/unparametrized_sql/Altmetrics_posts_commands.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/unparametrized_sql/Altmetrics_publisher_commands.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/unparametrized_sql/Altmetrics_reader_counts_commands.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/unparametrized_sql/Altmetrics_score_commands.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/unparametrized_sql/Altmetrics_score_fields_commands.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/unparametrized_sql/Altmetrics_twitter_data_commands.sql" dialect="GenericSQL" />
+    <file url="PROJECT" dialect="Snowflake" />
   </component>
 </project>
